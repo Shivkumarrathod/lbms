@@ -17,7 +17,7 @@ app.use(express.json());
 
 // Basic Route
 app.get('/', (req, res) => {
-  res.send('API is running...');
+  res.send(`API is running... at prort ${PORT}`);
 });
 
 app.listen(PORT, () => {
